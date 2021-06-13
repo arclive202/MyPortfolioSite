@@ -1,0 +1,272 @@
+<div class="wrapper">
+    <div class="page-header page-header-xs" data-parallax="true" style="background-image: url('./assets/img/pyramid-valley.jpg');">
+        <div class="filter"></div>
+    </div>
+    <div class="section profile-content">
+        <div class="container">
+            <div class="owner">
+                <div class="avatar">
+                    <img src="./assets/img/faces/aditya-rc.jpeg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
+                </div>
+                <div class="name">
+                    <h2 class="text-center mt-0">Aditya Roy Choudhary</h2>
+                    <hr class="divider my-4" />
+                    <h5 class="description">Software Engineer | Data Analyst</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ml-auto mr-auto text-center">
+                    <p> I am an avid problem solver who loves to look for patterns and interpret, unravel and uncover raw data in order to tell stories. I am passionate about bridging the gap between given real world challenges and their technological implementations. </p>
+                    <br />
+                    <a [routerLink]="['/projects']"><button class="btn btn-danger btn-round"><i class="nc-icon nc-app"></i>  My Projects</button></a>
+                    <a [routerLink]="['/about']"><button class="btn btn-danger btn-round"><i class="nc-icon nc-single-02"></i>  More About Me</button></a>
+                </div>
+            </div>
+            
+           
+
+            <!--Areas of Interest Start-->
+
+            <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <h2 class="text-center mt-0">Areas of Interest</h2>
+                <hr class="divider my-4" />
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fa fa-4x fa-database"></i>
+                            <h3 class="h4 mb-2">Database</h3>
+                            <p class="text-muted mb-0">Designing stored procedures and queries in backend that deliver solutions based on business requirements.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fa fa-4x fa-code"></i>
+                            <h3 class="h4 mb-2">EF Core</h3>
+                            <p class="text-muted mb-0">Developing APIs in C# that delivers the data sourced from SQL database to the web clients.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fa fa-4x fa-suitcase"></i>
+                            <h3 class="h4 mb-2">Data Analytics</h3>
+                            <p class="text-muted mb-0">Telling stories and deriving insights by preprocessing and analysing raw quantified chunks of data.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fa fa-4x fa-server"></i>
+                            <h3 class="h4 mb-2">Machine Learning</h3>
+                            <p class="text-muted mb-0">Treating ML models more than just a blackbox, as I am curious to learn the math behind it to better understand its intricacies.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fa fa-4x fa-cloud"></i>
+                            <h3 class="h4 mb-2">Firestore and Cloud Computing</h3>
+                            <p class="text-muted mb-0">Hosting and maintaining sites and database over firebase and expanding my horizon by working with different cloud architecture.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fa fa-4x fa-file-code-o"></i>
+                            <h3 class="h4 mb-2">Powershell Scripting</h3>
+                            <p class="text-muted mb-0">Automating certain redundant tasks and developing scripts to analyse server metrics and send out alerts respectively.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <!--Areas of Interest End-->
+
+            <!--Skills start-->
+            <div class="text-center">
+                <div class="menu-content">
+                        <div class="title text-center">
+                            <h2 class="text-center mt-0">Skills Expertise</h2>
+                            <hr class="divider my-4" />
+                            <h6 class="text-muted">1 - Basic <span style="display: inline-block; width: 2ch;">	</span>
+                            2 - Novice <span style="display: inline-block; width: 2ch;">	</span>
+                            3 - Intermediate<span style="display: inline-block; width: 2ch;">	</span>
+                            <br/>4 - Advanced<span style="display: inline-block; width: 2ch;">	</span>
+                            5 - Expert</h6>
+                            <p></p>
+                        </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row skillbar-wraps">
+                    <div class="col-lg-4 skill-left">
+                        <h4 class="text-center pt-50"> Devops </h4>
+                        <div class="single-skill">
+                            <p>
+                                Databases (SQL) -   4
+                            </p>
+                            <ngb-progressbar type="danger" class="mt-0" [value]="80" [striped]="false"></ngb-progressbar>
+                        </div>
+
+                        <div class="single-skill">
+                            <p>
+                                EF Core (Linq / C# .Net) -   4
+                            </p>
+                            <ngb-progressbar type="danger" class="mt-0" [value]="80" [striped]="false"></ngb-progressbar>
+                        </div>
+        
+                        <div class="single-skill">
+                            <p>
+                                Scripting (Powershell) -   4
+                            </p>
+                            <ngb-progressbar type="danger" class="mt-0" [value]="80" [striped]="false"></ngb-progressbar>
+                        </div>
+        
+                        <div class="single-skill">
+                            <p>
+                                Deployment (Firebase) - 2
+                            </p>
+                            <ngb-progressbar type="danger" class="mt-0" [value]="40" [striped]="false"></ngb-progressbar>
+                        </div>
+                    </div>
+        
+        
+        
+        
+                    <div class="col-lg-4 skill-right">
+                        <h4 class="text-center pt-50">Machine Learning</h4>
+                        <div class="single-skill">
+                            <p>
+                                Python - 5
+                            </p>
+                            <ngb-progressbar type="danger" class="mt-0" [value]="100" [striped]="false"></ngb-progressbar>
+                        </div>
+                        <div class="single-skill">
+                            <p>
+                                Computer Vision (TensorFlow) - 1
+                            </p>
+                            <ngb-progressbar type="danger" class="mt-0" [value]="20" [striped]="false"></ngb-progressbar>
+                        </div>
+        
+                        <div class="single-skill">
+                            <p>
+                                NLP (TensorFlow) - 1
+                            </p>
+                            <ngb-progressbar type="danger" class="mt-0" [value]="20" [striped]="false"></ngb-progressbar>
+                        </div>
+        
+                    </div>
+        
+                    <div class="col-lg-4 skill-right">
+                        <h4 class="text-center pt-50"> Data Analytics </h4>
+        
+                        <div class="single-skill">
+                            <p>
+                                Presentation - 5
+                            </p>
+                            <ngb-progressbar type="danger" class="mt-0" [value]="100" [striped]="false"></ngb-progressbar>
+                        </div>
+        
+                        <div class="single-skill">
+                            <p>
+                                Statistical Methods - 3
+                            </p>
+                            <ngb-progressbar type="danger" class="mt-0" [value]="60" [striped]="false"></ngb-progressbar>
+                        </div>
+        
+        
+                        <div class="single-skill">
+                            <p>
+                                Visualization (Tableau) - 1
+                            </p>
+                            <ngb-progressbar type="danger" class="mt-0" [value]="20" [striped]="false"></ngb-progressbar>
+                        </div>
+        
+                    </div>
+        
+                </div>                
+            </div>
+            <br/>
+
+
+            <!-- Skills End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!--Portfolio Part-->
+            <!-- Portfolio-->
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="" />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg">
+                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="" />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-category text-white-50">Category</div>
+                                <div class="project-name">Project Name</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Portfolio part ends-->
+        </div>
+    </div>
+</div>

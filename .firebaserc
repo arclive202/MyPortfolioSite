@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "adityarc-69100": {
+      "hosting": {
+        "pk2-angular": [
+          "adityarc-69100"
+        ]
+      }
+    }
+  }
+}
