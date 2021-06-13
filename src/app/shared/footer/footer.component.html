@@ -1,18 +1,52 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <nav class="footer-nav">
-                <ul>
-                    <li><a href="https://www.creative-tim.com">Creative Tim</a></li>
-                    <li><a href="http://blog.creative-tim.com">Blog</a></li>
-                    <li><a href="https://www.creative-tim.com/license">Licenses</a></li>
-                </ul>
-            </nav>
-            <div class="credits ml-auto">
-                <span class="copyright">
-                    © {{test | date: 'yyyy'}}, made with <i class="fa fa-heart heart"></i> by Creative Tim
-                </span>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+               <nav class="footer-nav">
+                   <ul>
+                       <li><a href="https://www.creative-tim.com">Creative Tim</a></li>
+                       <li><a href="http://blog.creative-tim.com">Blog</a></li>
+                        <li><a href="https://www.creative-tim.com/license">Licenses</a></li>
+                   </ul>
+               </nav>
+                       
             </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <h6 class="text-center">This site has been created using HTML, CSS and angular based on a theme from Creative-Tim. The site is hosted using Firebase Hosting services, with the scope of scaling it up in further iterations. </h6>
+                <p class="text-center">Site Version: 1.0 v</p>
+                <br/>
+                <h6>
+                    <span class="copyright">                    
+                        © {{test | date: 'yyyy'}}, made with <i class="fa fa-heart "></i> by Creative Tim
+                    </span>
+                    </h6>
+            </div>
+           
+           <div class="credits ml-auto">
+               <div class="text-center">
+                    <h5>Connect With me on </h5>
+                    <nav class="footer-nav">
+                   <ul>
+                    <li><a class="nav-link" rel="tooltip" title="Connect with me on LinkedIn" data-placement="bottom" href="https://www.linkedin.com/in/aditya-roy-choudhary/" target="_blank">
+                             <i class="fa fa-3x fa-linkedin"></i>
+                             <p class="d-lg-none">Linked In</p>
+                         </a>
+                     </li>
+                    <li><a class="nav-link" rel="tooltip" title="Connect with me on Facebook" data-placement="bottom" href="https://www.facebook.com/RoyalChallengerAditya/" target="_blank">
+                     <i class="fa fa-3x fa-facebook-square"></i>
+                     <p class="d-lg-none">Facebook</p>
+                    </a></li>
+                    <li><a class="nav-link" rel="tooltip" title="Follow me on Instagram" data-placement="bottom" href="https://www.instagram.com/rcaditya13/" target="_blank">
+                     <i class="fa fa-3x fa-instagram"></i>
+                     <p class="d-lg-none">Instagram</p>
+                     </a></li>
+                    </ul>
+                    </nav>
+                     
+             
+                </div>
+            </div>        
         </div>
     </div>
 </footer>
